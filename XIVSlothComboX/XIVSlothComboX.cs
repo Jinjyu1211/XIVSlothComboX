@@ -188,6 +188,7 @@ namespace XIVSlothComboX
             }
 
             Service.Framework.Update += OnFrameworkUpdate;
+            Service.DutyState.DutyRecommenced += OnDutyRecommenced;
             Service.ClientState.TerritoryChanged += OnTerritoryChanged;
 
 
@@ -201,6 +202,11 @@ namespace XIVSlothComboX
         }
 
         private void OnTerritoryChanged(uint obj)
+        {
+            CustomComboFunctions.InitCustomTimeline();
+        }
+
+        private void OnDutyRecommenced(Dalamud.Game.DutyState.IDutyStateEventArgs args)
         {
             CustomComboFunctions.InitCustomTimeline();
         }
@@ -365,6 +371,7 @@ namespace XIVSlothComboX
 
             Service.CommandManager.RemoveHandler(Command);
             Service.Framework.Update -= OnFrameworkUpdate;
+            Service.DutyState.DutyRecommenced -= OnDutyRecommenced;
             Service.ClientState.TerritoryChanged -= OnTerritoryChanged;
             
             Service.Interface.UiBuilder.OpenConfigUi -= OnOpenConfigUi;
