@@ -1,0 +1,15 @@
+{
+    "Author": "XIVSlothComboX",
+    "Name": "XIVSlothComboX",
+    "InternalName": "XIVSlothComboX",
+    "DalamudApiLevel": 15,
+    "Punchline": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
+    "Description": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
+    "RepoUrl": "https://github.com/Jinjyu1211/XIVSlothComboX",
+    "IconUrl": "https://i.imgur.com/iEcxM81.png",
+    "ImageUrls": [ "https://i.imgur.com/iEcxM81.png" ],
+    "Changelog": "API 15 Upgrade - Updated for FF14 7.5 compatibility",
+    "Tags": [
+        "combo"
+    ]
+}

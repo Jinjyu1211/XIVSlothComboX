@@ -1,0 +1,23 @@
+[
+  {
+    "Author": "Team Sloth",
+    "Name": "XIVSlothComboX",
+    "Punchline": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
+    "Description": "Condenses combos and mutually exclusive abilities onto a single button - and then some.",
+    "InternalName": "XIVSlothComboX",
+    "AssemblyVersion": "3.2.2.3",
+    "Changelog": "更新内容看更新日志",
+    "RepoUrl": "https://github.com/Jinjyu1211/XIVSlothComboX",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 14,
+    "LoadPriority": 0,
+    "IconUrl": "https://raw.githubusercontent.com/Jinjyu1211/XIVSlothComboX/main/res/plugin/XIVSlothComboX.png",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/Jinjyu1211/XIVSlothComboX/main/release/XIVSlothComboX/latest.zip",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/Jinjyu1211/XIVSlothComboX/main/release/XIVSlothComboX/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/Jinjyu1211/XIVSlothComboX/main/release/XIVSlothComboX/latest.zip",
+    "DownloadCount": 0,
+    "LastUpdated": "1724608643"
+  }
+]
